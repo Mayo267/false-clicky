@@ -1,0 +1,27 @@
+function piResponse() {
+piSetCookie('visitor_id36622', '450661861', 3650);
+piSetCookie('visitor_id36622-hash', '557683a23829d87545d2bfafb4e5f40d4ea1715b75602c78ed4e9fc28430d2c98f63b7c6b09d68c2dff78c49df641c5326c16b9a', 3650);
+
+if (document.location.protocol != "https:" || (document.location.protocol == "https:" && false)) {
+var analytics_link = document.location.protocol + "//" + "hello.heroku.com/analytics?";
+pi.tracker.visitor_id='450661861';
+
+pi.tracker.visitor_id_sign='557683a23829d87545d2bfafb4e5f40d4ea1715b75602c78ed4e9fc28430d2c98f63b7c6b09d68c2dff78c49df641c5326c16b9a';
+
+var variables = 'conly=true';
+for (property in pi.tracker) {
+	variables += "&"+property+"="+pi.tracker[property];
+}
+var headID = document.getElementsByTagName("head")[0];
+piScriptObj[piScriptNum] = document.createElement('script');
+piScriptObj[piScriptNum].type = 'text/javascript';
+piScriptObj[piScriptNum].src = analytics_link + variables;
+headID.appendChild(piScriptObj[piScriptNum]);
+piScriptObj[piScriptNum].onload = function() { return; }
+}
+}
+piResponse();
+
+
+
+
