@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Something With a Car
+    </h1>
+    <h2>
+        <p>Press H for honk</p>
+        <p>Press W to drive around the world</p>
+        <p>Press D to drive to work</p>
+        <p>Press T forn tuneup</p>
+
+
+    </h2>
+    <script>
+        var car = {
+            make: "Honda",
+            model: "Fit",
+            color: "Blue Raspberry",
+            mileage: 3000,
+            isWorking: true,
+            
+            
+            /*Drive to Work*/
+            driveToWork: function() {
+
+            alert("Old Mileage: " + this.mileage);
+
+            this.mileage = this.mileage + 8;
+
+            alert("New mileage: " + this.mileage);
+            },
+            
+            
+            /*Drive Around World*/
+            driveAroundWorld: function() {
+
+            alert("Old Mileage: " + this.mileage);
+
+            this.mileage = this.mileage + 24000;
+
+            alert("New Mileage: " + this.mileage);
+            alert("Car needs a tuneup!");
+
+            this.isWorking = false;
+            },
+            
+            
+            /*Tune Up*/
+            getTuneUp: function() {
+            alert("Car is ready to go!");
+            this.isWorking = true;
+            },
+            
+            
+            /*Honk*/
+            honk: function() {
+            alert("Honk! Honk!");
+            
+            }
+            };
+            if (letter === "h") {
+                car.honk();
+                reWriteStats();
+            }
+            else if (letter === "d") {
+                function reWriteStats()
+
+            }
+            
+    
+    </script>
+</body>
+</html>

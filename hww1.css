@@ -1,15 +1,112 @@
+
+html{
+    margin: 0;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.footer{
+    position: absolute;
+    top: 90%;
+    
+    background: #666666;
+    width: 100%;
+    border-top: 5px solid teal;
+    right: 0px;
+    
+    
+}
+.img{
+    width: 200px;
+    border-right: 5px solid white;
+}
+.body{
+    border: 15px solid white;
+    background: white;
+    position: fixed;
+    top: 15%;
+    right: 10%;
+    left: 10%
+    
+}
+.aboutme{
+    background: white;
+    color: lightseagreen;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid lightgrey;
+    display: block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+p{
+    background: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #777777;
+}
+body{
+    border: 20px solid white;
+    background: lightgrey;
+    
+    
+}
+.header{
+    background: 10px white;
+    border-bottom: 2px solid lightgrey;
+    border-right: 100px solid white;
+    border-left: 100px solid white;
+    margin: 0px;
+    
+    
+    
+}
+
+.headerRight{
+    position: relative;
+    float: right;
+    right: 100px;
+    
+
+}
+
 .name{
+    padding-top: 20px;
+    border: 20px solid teal;
+    background: teal;
+    color: white;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;;
+    position: relative;
+    bottom: 20px;
+    left: 100px;
+    box-shadow: 5px 5px #666666;
+
+
 
 }
-
+/* Header Right */
 .about{
-
+    color: grey;
 }
 
-.port{
-
+.portfolio{
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: grey;
 }
 
 .contact{
-    
+    color: grey;
+
+}
+
+.img{
+    float: left;
 }

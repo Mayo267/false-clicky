@@ -1,0 +1,74 @@
+/*Andrew Mayo Header*/
+.display-4 {
+    text-align: center;
+    background: #4aaaa5;
+    color: white;
+    height: 60px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/*Content of Body*/
+p {
+    font-size: 1.5em;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*Footer*/
+.footer {
+    text-align: center;
+    height: 30px;
+    border-top: 5px solid #4aaaa5;
+    padding: 5px;
+}
+
+/*Navigation Buttons*/
+.nav-link {
+    color: #777777;
+    font-size: 1.3em;
+    text-align: right;
+}
+
+/*Buttons and Content in Body*/
+.container {
+    padding: 5px;
+    background: white;
+    border: 5px solid white;
+    width: 960px;
+}
+
+/*Footer Text*/
+.h5 {
+    background: #666666;
+    color: white;
+    text-align: center;
+    height: 30px;
+    border-top: 5px solid #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.img {
+    float: left;
+}
+
+.aboutme {
+    color: #4aaaa5;
+    display: block;
+    border-bottom: 2px solid lightgrey;
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+    background: lightgrey;
+}
+
+footer {
+    background: grey;
+    color: white;
+    border-top: 5px solid lightseagreen;   
+}
+
+img {
+    padding
+}
